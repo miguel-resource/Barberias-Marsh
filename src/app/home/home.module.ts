@@ -5,13 +5,15 @@ import { MaterialModule } from './../material/material.module';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { NavbarComponent } from './components/navbar/navbar.component'
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
   declarations: [
     HomeComponent,
     BannerComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     HomeRoutingModule,

@@ -1,0 +1,12 @@
+.footer-main{
+    background-color: #D4CAB0;  
+    width: 100%;  
+}
+
+.footer-main .logo-marash{
+    display: block;        
+}
+
+.footer-main .linea{
+    width: 20%;
+}

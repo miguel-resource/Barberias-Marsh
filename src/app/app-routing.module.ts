@@ -10,40 +10,8 @@ const routes:Routes = [
   //USER INTERFACE
   {
     path: '',
-    component: NavbarComponent,
-    children: [
-      {
-        path: '',
-        redirectTo: '/inicio',
-        pathMatch: 'full'
-      },
-      {
-        path: 'inicio',
-        loadChildren: () => import('./home/home.module').then(m => m.HomeModule),
-      },
-      {
-        path: 'servicios',
-        loadChildren: () => import('./services/services.module').then(m => m.ServicesModule)
-      },
-      {
-        path: 'nosotros',
-        loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
-      },
-      {
-        path: 'contactos',
-        loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule)
-      }
-    ]
+    loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
   },
-  {
-    path: 'admin',
-    loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule)
-  },
-  {
-    path: '**',
-    component: PageNotFoundComponent
-  }
-
 ]
 
 @NgModule({

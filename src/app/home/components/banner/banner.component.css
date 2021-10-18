@@ -1,0 +1,33 @@
+.banner-home{     
+    background: url("/assets/banner/img-banner.png");    
+    height: 400px;
+    width: 100%;     
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+
+.banner-home .poste-home{
+    display: block;
+    margin-left: auto;
+    padding-top: 30px;
+    margin-right: auto;
+    width: 5%;
+}
+
+.banner-home h1{
+    color: white;
+    font-family: PT Sans Narrow;
+    font-size: 50px;
+    padding-top: 15px;
+    text-align: center;            
+    text-shadow: 3px 3px rgba(0,0,0,0.5);
+}
+
+.banner-home .flecha-home{
+    display: block;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}

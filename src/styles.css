@@ -3,5 +3,20 @@
   color: red;
 }
 
+.subtitle {
+  color: #fff;
+  font-family: 'Maitree', serif !important;
+  font-size: 40px !important;
+  font-weight: 400 !important;
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+  --swiper-theme-color: #E4B41C;
+}
+
+.swiper-pagination-bullet {
+  background: #E4B41C;
+}

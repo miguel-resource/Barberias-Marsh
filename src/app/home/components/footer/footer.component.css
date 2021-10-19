@@ -1,13 +1,36 @@
-.footer-main{
-    background-color: #D4CAB0;  
-    width: 100%;  
+.footer{
+    background-color: #1a1a1a;  
+    height: 260px;
+    padding-top: 40px;
+}
+
+.footer-main{    
+    display: grid;
+    grid-template-columns: 33% 33% 33%;    
+}
+
+.footer-main .titulo{
+    color: white;
+    font-family: Maitree;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 18%;
+}
+
+.footer-main .titulo img{
+    padding-right: 10px;
+}
+
+.footer-main .titulo p{
+    color: #E4B41C;
 }
 
 .footer-main .logo-marash{
-    padding-top: 10px;
     display: block;
+    padding-top: 10px;    
     margin-left: auto;
     margin-right: auto;
+    width: 30%;
 }
 
 .footer-main .logo-marash:hover{
@@ -19,64 +42,85 @@
 .footer-main .logo-marash:not(:hover){
     transition: all 300ms;
 }
-.footer-main .linea{    
+
+.footer-main .redes-sociales{
+    color: white;
     display: block;    
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    width: 20%;
-    height: 70px;    
-}
-
-.footer-main .footer-inferior{
-    display: grid;
-    grid-template-columns: 44.5% 30%;
-}
-
-.footer-main .footer-inferior .redes-sociales{
-    color: black;
-    display: grid;
-    font-size: 35px;
-    grid-template-columns: 30% 30% 30%; 
+    font-size: 35px;    
     height: 30px;
-    margin-top: 10px;    
-    text-align: center;            
+    margin-left: auto;    
+    margin-top: 18%;     
+    margin-right: auto;
+    text-align: center;
     width: 40%;  
 }
 
-.footer-main .footer-inferior .redes-sociales .fa-whatsapp:hover{
+.footer-main .redes-sociales .caja-redes{
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+}
+
+
+.footer-main .redes-sociales .fa-whatsapp:hover{
     cursor: pointer;
     transform: scale(1.1);
     transition: all 300ms;
     color: green;
 }
 
-.footer-main .footer-inferior .redes-sociales .fa-whatsapp:not(:hover){
+.footer-main .redes-sociales .fa-whatsapp:not(:hover){
     transition: all 300ms;
 }
 
-.footer-main .footer-inferior .redes-sociales .fa-facebook:hover{
+.footer-main .redes-sociales .fa-facebook:hover{
     cursor: pointer;
     transform: scale(1.1);
-    transition: all 300ms;
+    transition: all 300ms;    
 }
 
-.footer-main .footer-inferior .redes-sociales .fa-facebook:not(:hover){
+.footer-main .redes-sociales .fa-facebook:not(:hover){
     transition: all 300ms;
-    color: black;
+    color: white;
 }
 
-.footer-main .footer-inferior .redes-sociales .fa-instagram:hover{
+.footer-main .redes-sociales .fa-instagram:hover{
     cursor: pointer;
     color: #c71257;
     transform: scale(1.1);
     transition: all 300ms;
 }
 
-.footer-main .footer-inferior .redes-sociales .fa-instagram:not(:hover){
+.footer-main .redes-sociales .fa-instagram:not(:hover){
     transition: all 300ms;
 }
 
-.footer-main .footer-inferior .info-pagina h3{
-    font-weight: bold;
+.info-pagina{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
+
+.info-pagina .specs{
+    margin-left: 20px;
+}
+
+.info-pagina .specs h3{
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    font-weight: bold;    
+    margin-bottom: 0px;
+}
+
+.info-pagina .dev-team{
+    color: white;
+    font-family: Maitree;
+    font-size: 22px;
+    margin-left: 72%;
+    margin-top: 10px;
+}
+
+.info-pagina .dev-team span{
+    margin-left: 10px;
+}
+
+

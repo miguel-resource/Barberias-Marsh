@@ -9,7 +9,8 @@ import { HomeRoutingModule } from './home-routing.module';
 import { NavbarComponent } from './components/navbar/navbar.component'
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ServicesSlideComponent } from './components/services-slide/services-slide.component'
+import { ServicesSlideComponent } from './components/services-slide/services-slide.component';
+import { IntroductionComponent } from './components/introduction/introduction.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ServicesSlideComponent } from './components/services-slide/services-sli
     BannerComponent,
     NavbarComponent,
     FooterComponent,
-    ServicesSlideComponent
+    ServicesSlideComponent,
+    IntroductionComponent
   ],
   imports: [
     HomeRoutingModule,

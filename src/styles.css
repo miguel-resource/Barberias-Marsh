@@ -1,14 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
-.titulo-principal {
-  color: red;
-}
 
 .subtitle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.subtitle img:first-child {
+  padding-left: 60%;
+}
+
+.subtitle h2 {
+  text-align: center;
+  line-height: 60px;
+}
+
+.subtitle-text {
   color: #fff;
   font-family: 'Maitree', serif !important;
   font-size: 40px !important;
   font-weight: 400 !important;
 }
+
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
@@ -20,3 +36,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .swiper-pagination-bullet {
   background: #E4B41C;
 }
+
+.swiper-wrapper {
+  background: none;
+}
+
+.swiper-slide {
+  background: none !important;
+}
+

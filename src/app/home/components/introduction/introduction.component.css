@@ -1,0 +1,21 @@
+.intro {
+  background-color: #1A1A1A;
+}
+
+.intro-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.intro-content .intro-cards {
+}
+
+.intro-cards .swiper {
+  width: 350px;
+}
+
+.intro-cards .swiper  img {
+  width: 350px;
+}
+
+

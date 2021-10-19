@@ -6,22 +6,6 @@
   padding-top:20px;
 }
 
-.slider-title-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 60px;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.slider-title-content img:first-child {
-  padding-left: 60%;
-}
-
-.slider-title-content h2 {
-  text-align: center;
-  line-height: 60px;
-}
 
 .services {
   width: 100%;

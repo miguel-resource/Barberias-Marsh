@@ -1,13 +1,3 @@
-.banner-home{     
-    background: url("/assets/banner/img-banner.png");    
-    height: 400px;
-    width: 100%;     
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;       
-}
-
 .banner-home .poste-home{
     display: block;
     margin-left: auto;
@@ -19,23 +9,47 @@
 .banner-home h1{
     color: white;
     font-family: PT Sans Narrow;
-    font-size: 50px;
+    font-size: 6px;
     padding-top: 15px;
     text-align: center;            
     text-shadow: 3px 3px rgba(0,0,0,0.5);
+    transition: all 300ms;
 }
 
 .banner-home .flecha-home{
     display: block;
-    padding-top: 35px;
+    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-@media (max-width:480px) {    
+@media (min-width:320px) {        
     .banner-home{
         background-color: #1a1a1a;
         background-image: none;
+        transition: all 300ms;
+    }
+
+    .banner-home .poste-home{
+        width: 8%;
+    }
+
+    .banner-home h1{
+        font-size: 15px;
+        line-height: 20px;
+        transition: all 300ms;
+    }
+
+    .banner-home .flecha-home{
+        padding-top: 4%;
+        width: 70%;
+    }
+}
+@media (min-width:480px) {
+    .banner-home{
+        background-color: #1a1a1a;
+        background-image: none;
+        transition: all 300ms;
     }
 
     .banner-home .poste-home{
@@ -45,6 +59,7 @@
     .banner-home h1{
         font-size: 20px;
         line-height: 20px;
+        transition: all 300ms;
     }
 
     .banner-home .flecha-home{
@@ -52,3 +67,77 @@
         width: 70%;
     }
 }
+@media (min-width:600px) { 
+    .banner-home .poste-home{
+        display: block;
+        margin-left: auto;
+        padding-top: 30px;
+        margin-right: auto;
+        width: 5%;
+    }
+
+    .banner-home h1{
+        color: white;
+        font-family: PT Sans Narrow;
+        font-size: 30px;
+        padding-top: 15px;
+        text-align: center;            
+        text-shadow: 3px 3px rgba(0,0,0,0.5);
+        transition: all 300ms;
+    }
+
+    .banner-home .flecha-home{
+        display: block;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width:801px) {         
+    .banner-home h1{
+        color: white;
+        font-family: PT Sans Narrow;
+        font-size: 40px;
+        padding-top: 15px;
+        text-align: center;            
+        text-shadow: 3px 3px rgba(0,0,0,0.5);
+    }
+ }
+
+ @media (min-width:960px) { 
+    .banner-home{     
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;       
+        background: url("/assets/banner/img-banner.png");    
+        height: 400px;
+        width: 100%;     
+        transition: all 300ms;
+    }
+    
+    .banner-home .poste-home{
+        display: block;
+        margin-left: auto;
+        padding-top: 30px;
+        margin-right: auto;
+        width: 5%;
+    }
+    
+    .banner-home h1{
+        color: white;
+        font-family: PT Sans Narrow;
+        font-size: 50px;
+        padding-top: 15px;
+        text-align: center;            
+        text-shadow: 3px 3px rgba(0,0,0,0.5);
+        transition: all 300ms;
+    }
+    
+    .banner-home .flecha-home{
+        display: block;
+        padding-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }

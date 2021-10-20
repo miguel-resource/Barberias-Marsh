@@ -107,6 +107,7 @@
   .intro {
     background-color: #1A1A1A;
     padding-bottom: 50px;
+    padding-top: 50px;
   }
   
   .intro-content {
@@ -118,35 +119,6 @@
     display:inherit;
   }
 
-<<<<<<< HEAD
-.intro-text{
-  color: white;
-  display: block;
-  margin-left: 7%;
-  margin-right: auto;
-  margin-top: 30px;
-}
-
-.intro-text h2{
-  font-family: Maitree;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.intro-text p{
-  font-family: Maitree;
-  font-size: 25px;
-  line-height: 50px;
-  margin-top: 50px;
-}
-
-.intro-text p span{
-  color: #E4B41C;
-}
-
-
-=======
   .intro-content .intro-cards2{
     display: none;
   }
@@ -207,4 +179,3 @@
     text-align: left;
   }
 }
->>>>>>> dani

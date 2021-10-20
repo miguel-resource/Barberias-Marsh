@@ -31,3 +31,24 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width:480px) {    
+    .banner-home{
+        background-color: #1a1a1a;
+        background-image: none;
+    }
+
+    .banner-home .poste-home{
+        width: 8%;
+    }
+
+    .banner-home h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .banner-home .flecha-home{
+        padding-top: 4%;
+        width: 70%;
+    }
+}

@@ -1,23 +1,124 @@
-.intro {
-  background-color: #1A1A1A;
-}
+@media (min-width:320px) { 
+  .intro {
+    background-color: #1A1A1A;
+  }
+  
+  .intro-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.intro-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  .intro-content .intro-cards{
+    display: none;
+  } 
+  
+  .intro-content .intro-cards {
+  }
+  
+  .intro-cards2 .swiper {
+    width: 30%;
+    padding-bottom: 20px;
+  }
+  
+  .intro-cards2 .swiper  img {
+    width: 70%;
+  }
+  
+  .intro-text{
+    color: white;  
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  
+  .intro-text h2{      
+    font-family: Maitree;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .intro-text p{  
+    text-align: center;
+    font-family: Maitree;
+    font-size: 15px; 
+    line-height: 30px; 
+    margin-top: 20px;    
+  }
+  
+  .intro-text p span{
+    color: #E4B41C;
+  }      
 }
+@media (min-width:480px) { 
+  .intro-cards2 .swiper {
+    width: 30%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  
+  .intro-cards2 .swiper  img {
+    width: 100%;
+  }
 
-.intro-content .intro-cards {
+  .intro-text h2{      
+    font-family: Maitree;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .intro-text p{  
+    text-align: center;
+    font-family: Maitree;
+    font-size: 20px; 
+    line-height: 30px; 
+    margin-top: 20px;    
+  }
 }
+@media (min-width:600px) { 
+  .intro-cards2 .swiper {
+    width: 30%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  
+  .intro-cards2 .swiper  img {
+    width: 100%;
+  }
 
-.intro-cards .swiper {
-  width: 350px;
+  .intro-text h2{      
+    font-family: Maitree;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .intro-text p{  
+    text-align: center;
+    font-family: Maitree;
+    font-size: 25px; 
+    line-height: 30px; 
+    margin-top: 20px;    
+  }
 }
+@media (min-width:801px) {    
+  .intro {
+    background-color: #1A1A1A;
+    padding-bottom: 50px;
+  }
+  
+  .intro-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }  
 
-.intro-cards .swiper  img {
-  width: 350px;
-}
+  .intro-content .intro-cards{
+    display:inherit;
+  }
 
+<<<<<<< HEAD
 .intro-text{
   color: white;
   display: block;
@@ -45,3 +146,65 @@
 }
 
 
+=======
+  .intro-content .intro-cards2{
+    display: none;
+  }
+
+  .intro-content .intro-cards {
+  }
+  
+  .intro-cards .swiper {
+    width: 350px;
+  }
+  
+  .intro-cards .swiper  img {
+    width: 350px;
+  }
+  
+  .intro-text{
+    color: white;
+    display: block;
+    margin-left: 7%;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  
+  .intro-text h2{
+    font-family: Maitree;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .intro-text p{
+    font-family: Maitree;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  .intro-text p span{
+    color: #E4B41C;
+  }
+
+}
+
+@media (min-width:1025px) {    
+  .intro-text h2{
+    font-family: Maitree;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .intro-text p{
+    font-family: Maitree;
+    font-size: 22px;
+    line-height: 50px;
+    margin-top: 50px;
+    text-align: left;
+  }
+}
+>>>>>>> dani

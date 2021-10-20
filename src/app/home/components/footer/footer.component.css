@@ -202,7 +202,7 @@
     }
 
     .footer-main .titulo img{        
-        width: 15%;
+        width: 10%;
     }
     
     .footer-main .titulo{                
@@ -212,7 +212,7 @@
     }
 
     .footer-main .logo-marash{        
-        width: 40%;
+        width: 35%;
         transition: all 300ms;
     }
 
@@ -235,5 +235,8 @@
         font-size: 25px;
         margin-left: 55%;
         margin-top: 8px;
+    }
+    .info-pagina .dev-team img{  
+        width: 10%;
     }
 }

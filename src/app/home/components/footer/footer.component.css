@@ -228,15 +228,15 @@
     }  
 
     .info-pagina .specs h3{
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .info-pagina .dev-team{        
-        font-size: 25px;
+        font-size: 15px;
         margin-left: 55%;
         margin-top: 8px;
     }
     .info-pagina .dev-team img{  
-        width: 10%;
+        width: 8%;
     }
 }

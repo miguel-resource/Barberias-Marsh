@@ -1,4 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { Swiper }from 'swiper';
+import SwiperCore, { Pagination, Navigation} from "swiper";
+
+SwiperCore.use([
+  Navigation,
+  Pagination,
+]);
 
 @Component({
   selector: 'app-catalogue',

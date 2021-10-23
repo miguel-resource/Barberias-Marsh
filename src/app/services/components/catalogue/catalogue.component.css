@@ -1,0 +1,18 @@
+.catalogue {
+  background-color: #1A1A1A;
+}
+
+.catalogue-title {
+  padding-top:20px;
+}
+
+
+.catalogue-slider {
+  width: 90%;
+  margin: 0 auto;
+  height: 27em;
+}
+
+.catalogue-slider .swiper {
+  padding-bottom: 30px;
+}

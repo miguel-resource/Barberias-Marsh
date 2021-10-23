@@ -7,6 +7,7 @@ import { CatalogueComponent } from './components/catalogue/catalogue.component';
 import { ReservationComponent } from './components/reservation/reservation.component';
 import { ServicesComponent } from './services/services.component';
 import { ServiceRoutingModule } from './services-routing.module'
+import { SwiperModule } from "swiper/angular";
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { ServiceRoutingModule } from './services-routing.module'
     ReservationComponent,
   ],
   imports: [
+    SwiperModule,
     ServiceRoutingModule,
     CommonModule
   ]

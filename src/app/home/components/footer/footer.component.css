@@ -228,15 +228,21 @@
     }  
 
     .info-pagina .specs h3{
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .info-pagina .dev-team{        
-        font-size: 15px;
+        font-size: 20px;
         margin-left: 55%;
         margin-top: 8px;
     }
     .info-pagina .dev-team img{  
         width: 8%;
+    }
+}
+
+@media (min-width:801px) {
+    .footer-main .logo-marash{   
+        width: 28%;
     }
 }

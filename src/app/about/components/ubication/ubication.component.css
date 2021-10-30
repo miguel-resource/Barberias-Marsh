@@ -1,0 +1,148 @@
+.ubication{
+    background-color: #1a1a1a;
+    margin-top: 0;
+}
+
+.ubication-title{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+.ubication-subtitle{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;    
+}
+
+.ubication-subtitle img{
+    width: 80%;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ubication-subtitle h2{
+    color: white;
+    font-family: Maitree;    
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ubication .ubication-text{
+    color: white;
+    font-family: Maitree;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ubication-map{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.ubication-map iframe{
+    border-radius: 20px;
+}
+
+@media (min-width:320px) {
+    .ubication-title{        
+        width: 80%;
+    }
+}
+
+@media (min-width:380px) {
+    .ubication-subtitle h2{  
+        font-size: 17px;      
+        margin-top: 15px;
+    }
+}
+
+@media (min-width:470px) {   
+    .ubication-title{
+        width: 70%;
+    }
+    
+    .ubication-subtitle{        
+        margin-bottom: 7px;
+    }
+
+    .ubication-subtitle h2{  
+        font-size: 19px;      
+        margin-top: 18px;
+    }
+}
+
+@media (min-width:600px) {
+    .ubication-title{
+        width: 60%;
+    }
+
+    .ubication-subtitle h2{  
+        font-size: 21px;      
+        margin-top: 20px;
+    }
+
+    .ubication-text{
+        font-size: 16px;        
+    }
+
+    .ubication-map iframe{
+        height: 400px;
+    }
+}
+
+@media (min-width:750px) {
+    .ubication-title{
+        width: 50%;
+    }
+}
+
+@media (min-width:801px) { 
+    .ubication-subtitle h2{  
+        font-size: 25px;      
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:901px) {
+    .ubication-title{
+        width: 55%;
+    }
+
+    .ubication-subtitle h2{  
+        font-size: 30px;      
+        margin-top: 27px;
+    }
+} 
+
+@media (min-width:1025px) {
+    .ubication-title{
+        width: 62%;
+    }
+
+    .ubication-subtitle h2{  
+        font-size: 40px;      
+        margin-top: 35px;
+    }
+
+    .ubication-map iframe{
+        height: 500px;
+    }
+} 
+
+@media (min-width:1281px) { 
+    .ubication-subtitle h2{  
+        font-size: 40px;      
+        margin-top: 50px;
+    }    
+}

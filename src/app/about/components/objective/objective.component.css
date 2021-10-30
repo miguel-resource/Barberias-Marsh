@@ -1,0 +1,168 @@
+.objective{
+    background-color: #1a1a1a;
+    margin-top: 0;
+}
+
+.objective-title{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+.objective-subtitle{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;    
+}
+
+.objective-subtitle img{
+    width: 80%;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.objective-subtitle h2{
+    color: white;
+    font-family: Maitree;    
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.objective-text{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.objective-text img{
+    width: 70%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.objective-text p{
+    color: white;    
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+    font-family: Maitree;
+}
+
+@media (min-width:320px) {
+    .objective-title{        
+        width: 80%;
+    }
+}
+
+@media (min-width:380px) {
+    .objective-subtitle h2{  
+        font-size: 17px;      
+        margin-top: 15px;
+    }
+}
+
+@media (min-width:470px) {   
+    .objective-title{
+        width: 70%;
+    }
+    
+    .objective-subtitle{        
+        margin-bottom: 7px;
+    }
+
+    .objective-subtitle h2{  
+        font-size: 19px;      
+        margin-top: 18px;
+    }
+
+    .objective-text p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width:600px) {
+    .objective-title{
+        width: 60%;
+    }
+
+    .objective-subtitle h2{  
+        font-size: 21px;      
+        margin-top: 20px;
+    }
+
+    .objective-text p{
+        font-size: 16px;
+        line-height: 35px;
+    }
+}
+
+@media (min-width:750px) {
+    .objective-title{
+        width: 50%;
+    }
+}
+
+@media (min-width:801px) { 
+    .objective-subtitle h2{  
+        font-size: 25px;      
+        margin-top: 20px;
+    }
+
+    .objective-text p{
+        font-size: 19px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width:901px) {
+    .objective-title{
+        width: 55%;
+    }
+
+    .objective-subtitle h2{  
+        font-size: 30px;      
+        margin-top: 27px;
+    }
+
+    .objective-text p{
+        font-size: 19px;
+        line-height: 50px;
+    }
+
+    .objective-text img{
+        margin-top: 30px;
+    }
+} 
+
+@media (min-width:1025px) {
+    .objective-title{
+        width: 62%;
+    }
+
+    .objective-subtitle h2{  
+        font-size: 40px;      
+        margin-top: 35px;
+    }
+
+    .objective-text p{
+        font-size: 23px;
+        line-height: 55px;
+    }
+} 
+
+@media (min-width:1281px) { 
+    .objective-subtitle h2{  
+        font-size: 40px;      
+        margin-top: 50px;
+    }
+
+    .objective-text p{
+        font-size: 25px;
+        line-height: 65px;
+    }
+}

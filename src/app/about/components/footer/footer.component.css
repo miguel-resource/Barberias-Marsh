@@ -1,0 +1,248 @@
+.footer{
+    background-color: #1a1a1a;  
+    height: auto;    
+}
+
+.footer-main{    
+    display: grid;
+    grid-template-columns: 33% 33% 33%;    
+}
+
+.footer-main .titulo{
+    color: white;
+    font-family: Maitree;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 18%;
+}
+
+.footer-main .titulo img{
+    padding-right:5px;
+    width: 20%;
+}
+
+.footer-main .titulo p{
+    color: #E4B41C;
+}
+
+.footer-main .logo-marash{
+    display: block;
+    padding-top: 5px;    
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.footer-main .logo-marash:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+
+.footer-main .logo-marash:not(:hover){
+    transition: all 300ms;
+}
+
+.footer-main .redes-sociales{
+    color: white;
+    display: block;    
+    font-size: 16px;    
+    height: 30px;
+    margin-left: auto;    
+    margin-top: 18%;     
+    margin-right: auto;
+    text-align: center;
+    width: 50%;  
+}
+
+.footer-main .redes-sociales .caja-redes{
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+}
+
+
+.footer-main .redes-sociales .fa-whatsapp:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 300ms;
+    color: green;
+}
+
+.footer-main .redes-sociales .fa-whatsapp:not(:hover){
+    transition: all 300ms;
+}
+
+.footer-main .redes-sociales .fa-facebook:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 300ms;    
+}
+
+.footer-main .redes-sociales .fa-facebook:not(:hover){
+    transition: all 300ms;
+    color: white;
+}
+
+.footer-main .redes-sociales .fa-instagram:hover{
+    cursor: pointer;
+    color: #c71257;
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+.footer-main .redes-sociales .fa-instagram:not(:hover){
+    transition: all 300ms;
+}
+
+.info-pagina{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.info-pagina .specs{
+    margin-left: 10px;
+}
+
+.info-pagina .specs h3{
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    font-size: 10px;
+    font-weight: bold;    
+    margin-bottom: 0px;
+}
+
+.info-pagina .dev-team{
+    color: white;
+    font-family: Maitree;
+    font-size: 10px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.info-pagina .dev-team img{
+    width: 15%;
+}
+
+.info-pagina .dev-team span{
+    margin-left: 5px;
+}
+@media (min-width:320px) { 
+    
+
+}
+@media (min-width:480px) { 
+    .footer-main .titulo img{        
+        width: 15%;
+    }
+    
+    .footer-main .titulo{                
+        font-size: 13px;        
+        margin-top: 18%;
+        transition: all 300ms;
+    }
+
+    .footer-main .logo-marash{        
+        width: 40%;
+        transition: all 300ms;
+    }
+
+    .footer-main .redes-sociales{        
+        font-size: 25px;    
+        height: 30px;
+        margin-left: auto;    
+        margin-top: 18%;     
+        margin-right: auto;
+        text-align: center;
+        width: 50%;  
+        transition: all 300ms;
+    }   
+    
+    .info-pagina .dev-team{        
+        font-size: 10px;
+        margin-left: 60%;
+        margin-top: 10px;
+    }
+}
+@media (min-width:600px) {
+    .footer-main .titulo img{        
+        width: 15%;
+    }
+    
+    .footer-main .titulo{                
+        font-size: 13px;        
+        margin-top: 18%;
+        transition: all 300ms;
+    }
+
+    .footer-main .logo-marash{        
+        width: 40%;
+        transition: all 300ms;
+    }
+
+    .footer-main .redes-sociales{        
+        font-size: 25px;    
+        height: 30px;
+        margin-left: auto;    
+        margin-top: 18%;     
+        margin-right: auto;
+        text-align: center;
+        width: 50%;  
+        transition: all 300ms;
+    }  
+
+    .info-pagina .dev-team{        
+        font-size: 10px;
+        margin-left: 60%;
+        margin-top: 10px;
+    }
+}
+@media (min-width:801px) {
+    .footer{
+        height: auto;
+    }
+
+    .footer-main .titulo img{        
+        width: 10%;
+    }
+    
+    .footer-main .titulo{                
+        font-size: 20px;        
+        margin-top: 18%;
+        transition: all 300ms;
+    }
+
+    .footer-main .logo-marash{        
+        width: 35%;
+        transition: all 300ms;
+    }
+
+    .footer-main .redes-sociales{        
+        font-size: 40px;    
+        height: 30px;
+        margin-left: auto;    
+        margin-top: 18%;     
+        margin-right: auto;
+        text-align: center;
+        width: 50%;  
+        transition: all 300ms;
+    }  
+
+    .info-pagina .specs h3{
+        font-size: 20px;
+    }
+
+    .info-pagina .dev-team{        
+        font-size: 20px;
+        margin-left: 55%;
+        margin-top: 8px;
+    }
+    .info-pagina .dev-team img{  
+        width: 8%;
+    }
+}
+
+@media (min-width:801px) {
+    .footer-main .logo-marash{   
+        width: 28%;
+    }
+}

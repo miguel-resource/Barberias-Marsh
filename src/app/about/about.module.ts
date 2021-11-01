@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about/about.component';
+import { SwiperModule } from "swiper/angular";
 
 import { AboutRoutingModule } from './about-routing.module';
 import { UbicationComponent } from './components/ubication/ubication.component';
@@ -22,6 +23,7 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     AboutRoutingModule,
+    SwiperModule,
     CommonModule
   ]
 })

@@ -1,1 +1,34 @@
-<p>slide-pictures works!</p>
+<div class="slide-pictures">
+    <div class="slide-title">
+        <div class="slide-subtitle">
+            <img class="catalogue-img-2" src="./../../../../assets/service-sliders/flecha-grande 2.png">
+            <h2 class="subtitle-text">GALERÍA</h2>
+            <img src="./../../../../assets/service-sliders/flecha-grande 1.png">
+
+        </div>
+    </div>
+
+    <div class="slider">
+        <swiper [effect]="'coverflow'" [grabCursor]="true" [centeredSlides]="true" [slidesPerView]="2"
+            [coverflowEffect]="{
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true
+    }" [pagination]="true" [breakpoints]="{
+        '320':{
+            slidesPerView: 2
+        }
+    }" class="mySwiper">
+            <ng-template swiperSlide><img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" /></ng-template>
+            <ng-template swiperSlide><img src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=437&q=80" /></ng-template>
+            <ng-template swiperSlide><img src="https://images.unsplash.com/photo-1599351431613-18ef1fdd27e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=388&q=80" /></ng-template>
+            <ng-template swiperSlide><img src="https://images.unsplash.com/photo-1596728325488-58c87691e9af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=873&q=80" /></ng-template>
+            <ng-template swiperSlide><img src="https://images.unsplash.com/photo-1622296089863-eb7fc530daa8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" /></ng-template>
+            <ng-template swiperSlide><img src="https://images.unsplash.com/photo-1525708117204-bbe93e711abb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" /></ng-template>
+            <ng-template swiperSlide><img src="https://images.unsplash.com/photo-1594377160182-cdebf2d41da5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" /></ng-template>
+            <ng-template swiperSlide><img src="https://images.unsplash.com/photo-1596513057934-9309b56a20f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" /></ng-template>
+        </swiper>
+    </div>
+</div>

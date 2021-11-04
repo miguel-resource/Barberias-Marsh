@@ -28,7 +28,7 @@
     font-family: Maitree;    
     font-size: 15px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .objective-text{
@@ -61,7 +61,7 @@
 @media (min-width:380px) {
     .objective-subtitle h2{  
         font-size: 17px;      
-        margin-top: 15px;
+        margin-top: 14px;
     }
 }
 

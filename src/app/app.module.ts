@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SwiperModule } from 'swiper/angular';
 
 //Navbar
-import { SharedModule } from './shared/shared.module'
+import { SharedModule } from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,

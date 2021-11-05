@@ -1,0 +1,16 @@
+<div class="banner-home" [ngSwitch]="router.url">
+    <div *ngSwitchCase="'/'">
+        <img class="poste-home" src="assets/banner/poste-barbero.png" alt="poste-barbero">
+        <h1>"No sólo es el corte, es la experiencia y <br><br> respeto por nuestro arte"</h1>
+        <img class="flecha-home" src="assets/banner/flecha-1.png" alt="flecha-barberia">            
+    </div>
+    <div *ngSwitchCase="'/servicios'" class="banner-services">
+        <h1>SERVICIOS</h1>
+    </div>
+    <div *ngSwitchCase="'/nosotros'" class="banner-about">
+        <h1>NOSOTROS</h1>
+    </div>
+    <div *ngSwitchCase="'/contacto'" class="banner-contacto">
+        <h1>CONTACTO</h1>
+    </div>
+</div>

@@ -5,7 +5,6 @@ import { SwiperModule } from "swiper/angular";
 
 import { AboutRoutingModule } from './about-routing.module';
 import { UbicationComponent } from './components/ubication/ubication.component';
-import { BannerComponent } from './components/banner/banner.component';
 import { ObjectiveComponent } from './components/objective/objective.component';
 import { SlidePicturesComponent } from './components/slide-pictures/slide-pictures.component';
 
@@ -13,7 +12,6 @@ import { SlidePicturesComponent } from './components/slide-pictures/slide-pictur
   declarations: [
     AboutComponent,
     UbicationComponent,
-    BannerComponent,
     ObjectiveComponent,
     SlidePicturesComponent,    
   ],

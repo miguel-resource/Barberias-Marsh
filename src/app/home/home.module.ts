@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BannerComponent } from './components/banner/banner.component';
 import { MaterialModule } from './../material/material.module';
 
 import { SwiperModule } from "swiper/angular";
@@ -13,7 +12,6 @@ import { IntroductionComponent } from './components/introduction/introduction.co
 @NgModule({
   declarations: [
     HomeComponent,
-    BannerComponent,
     ServicesSlideComponent,
     IntroductionComponent
   ],

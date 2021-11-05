@@ -7,7 +7,6 @@ import { SwiperModule } from "swiper/angular";
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { ServicesSlideComponent } from './components/services-slide/services-slide.component';
 import { IntroductionComponent } from './components/introduction/introduction.component'
 
@@ -15,7 +14,6 @@ import { IntroductionComponent } from './components/introduction/introduction.co
   declarations: [
     HomeComponent,
     BannerComponent,
-    FooterComponent,
     ServicesSlideComponent,
     IntroductionComponent
   ],

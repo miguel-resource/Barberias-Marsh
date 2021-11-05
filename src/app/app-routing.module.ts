@@ -4,6 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from "@angular/router";
 
 //Components
 import  { NavbarComponent } from './shared/navbar/navbar.component'
+import { FooterComponent } from "./shared/footer/footer.component";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 const routes:Routes = [

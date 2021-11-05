@@ -8,7 +8,6 @@ import { UbicationComponent } from './components/ubication/ubication.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { ObjectiveComponent } from './components/objective/objective.component';
 import { SlidePicturesComponent } from './components/slide-pictures/slide-pictures.component';
-import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
     UbicationComponent,
     BannerComponent,
     ObjectiveComponent,
-    SlidePicturesComponent,
-    FooterComponent
+    SlidePicturesComponent,    
   ],
   imports: [
     AboutRoutingModule,

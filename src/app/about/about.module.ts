@@ -6,7 +6,6 @@ import { SwiperModule } from "swiper/angular";
 import { AboutRoutingModule } from './about-routing.module';
 import { UbicationComponent } from './components/ubication/ubication.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
 import { ObjectiveComponent } from './components/objective/objective.component';
 import { SlidePicturesComponent } from './components/slide-pictures/slide-pictures.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -16,7 +15,6 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutComponent,
     UbicationComponent,
     BannerComponent,
-    NavbarComponent,
     ObjectiveComponent,
     SlidePicturesComponent,
     FooterComponent

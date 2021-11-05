@@ -7,6 +7,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SwiperModule } from 'swiper/angular';
 
+//Navbar
+import { SharedModule } from './shared/shared.module'
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,6 +16,7 @@ import { SwiperModule } from 'swiper/angular';
   ],
   imports: [
     BrowserModule,
+    SharedModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     SwiperModule

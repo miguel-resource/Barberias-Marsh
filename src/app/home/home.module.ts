@@ -6,7 +6,6 @@ import { MaterialModule } from './../material/material.module';
 import { SwiperModule } from "swiper/angular";
 
 import { HomeRoutingModule } from './home-routing.module';
-import { NavbarComponent } from './components/navbar/navbar.component'
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ServicesSlideComponent } from './components/services-slide/services-slide.component';
@@ -16,7 +15,6 @@ import { IntroductionComponent } from './components/introduction/introduction.co
   declarations: [
     HomeComponent,
     BannerComponent,
-    NavbarComponent,
     FooterComponent,
     ServicesSlideComponent,
     IntroductionComponent

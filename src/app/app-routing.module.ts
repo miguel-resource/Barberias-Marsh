@@ -19,6 +19,14 @@ const routes:Routes = [
   {
     path: 'nosotros',
     loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
+  },
+  {
+    path: 'contacto',
+    loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule)
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
   }
 ]
 

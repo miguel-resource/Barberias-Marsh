@@ -1,0 +1,114 @@
+.contact-fq{
+    background-color: #1a1a1a;
+    margin-top: 0;
+}
+
+.fq-title{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+.fq-subtitle{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;    
+}
+
+.fq-subtitle img{
+    width: 80%;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fq-subtitle h2{
+    color: white;
+    font-family: Maitree;    
+    font-size: 15px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+@media (min-width:320px) {
+    .fq-title{        
+        width: 80%;
+    }
+    
+}
+
+@media (min-width:380px) {
+    .fq-subtitle h2{  
+        font-size: 17px;      
+        margin-top: 14px;
+    }
+}
+
+@media (min-width:470px) {   
+    .fq-title{
+        width: 70%;
+    }
+    
+    .fq-subtitle{        
+        margin-bottom: 7px;
+    }
+
+    .fq-subtitle h2{  
+        font-size: 19px;      
+        margin-top: 18px;
+    }
+}
+
+@media (min-width:600px) {
+    .fq-title{
+        width: 60%;
+    }
+
+    .fq-subtitle h2{  
+        font-size: 21px;      
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:750px) {
+    .fq-title{
+        width: 50%;
+    }
+}
+
+@media (min-width:801px) { 
+    .fq-subtitle h2{  
+        font-size: 25px;      
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:901px) {
+    .fq-title{
+        width: 55%;
+    }
+
+    .fq-subtitle h2{  
+        font-size: 30px;      
+        margin-top: 27px;
+    }    
+} 
+
+@media (min-width:1025px) {
+    .fq-title{
+        width: 62%;
+    }
+
+    .fq-subtitle h2{  
+        font-size: 40px;      
+        margin-top: 35px;
+    }
+} 
+
+@media (min-width:1281px) { 
+    .fq-subtitle h2{  
+        font-size: 40px;      
+        margin-top: 50px;
+    }
+}

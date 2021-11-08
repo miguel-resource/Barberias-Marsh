@@ -31,22 +31,6 @@
     margin-top: 12px;
 }
 
-.social-text img{
-    width: 70%;
-    height: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.social-text p{
-    color: white;    
-    text-align: center;
-    font-size: 13px;
-    line-height: 25px;
-    font-family: Maitree;
-}
-
 .social-redes h3{
     color: white;
     font-family: Maitree;
@@ -294,10 +278,5 @@
     .social-subtitle h2{  
         font-size: 40px;      
         margin-top: 50px;
-    }
-
-    .social-text p{
-        font-size: 25px;
-        line-height: 65px;
     }
 }

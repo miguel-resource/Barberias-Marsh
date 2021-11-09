@@ -8,7 +8,7 @@ import { FooterComponent } from "./shared/footer/footer.component";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 //AdminGuard
-import { AdminGuard } from "./admin.guard";
+//import { AdminGuard } from "./admin.guard";
 
 const routes:Routes = [
   //USER INTERFACE

@@ -6,6 +6,8 @@ import { FrequentQuestionComponent } from './components/frequent-question/freque
 import { ContactRoutingModule } from './contact-rounting.module'
 
 
+import { MaterialModule } from './../material/material.module'
+
 @NgModule({
   declarations: [
     ContactComponent,
@@ -14,6 +16,7 @@ import { ContactRoutingModule } from './contact-rounting.module'
   ],
   imports: [
     ContactRoutingModule,
+    MaterialModule,
     CommonModule
   ]
 })

@@ -1,9 +1,47 @@
 <div class="contact-fq">
-    <div class="fq-title">
-        <div class="fq-subtitle">
-            <img  src="./../../../../assets/service-sliders/flecha-grande 2.png">
-            <h2 class="fq-head">PREGUNTAS FRECUENTES</h2>
-            <img src="./../../../../assets/service-sliders/flecha-grande 1.png">
-        </div>
+  <div class="fq-title">
+    <div class="fq-subtitle">
+      <img src="./../../../../assets/service-sliders/flecha-grande 2.png">
+      <h2 class="fq-head">PREGUNTAS FRECUENTES</h2>
+      <img src="./../../../../assets/service-sliders/flecha-grande 1.png">
     </div>
+  </div>
+
+  <div class="contact__fq--accordeon">
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Pregunta #1
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p><span>R:</span> Respuestra correspondiente a esta pregunta</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Pregunta #2
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p><span>R:</span> Respuestra correspondiente a esta pregunta</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Pregunta #3
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p><span>R:</span> Respuestra correspondiente a esta pregunta</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Pregunta #4
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p><span>R:</span> Respuestra correspondiente a esta pregunta</p>
+    </mat-expansion-panel>
+  </div>
 </div>

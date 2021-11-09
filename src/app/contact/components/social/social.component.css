@@ -12,7 +12,7 @@
 
 .social-subtitle{
     display: grid;
-    grid-template-columns: 15% 70% 15%;    
+    grid-template-columns: 15% 70% 15%;
 }
 
 .social-subtitle img{
@@ -25,7 +25,7 @@
 
 .social-subtitle h2{
     color: white;
-    font-family: Maitree;    
+    font-family: Maitree;
     font-size: 15px;
     text-align: center;
     margin-top: 12px;
@@ -38,7 +38,7 @@
 }
 
 .social-redes p{
-    color: #969696;    
+    color: #969696;
     font-family: Maitree;
 }
 
@@ -61,8 +61,8 @@
     cursor: pointer;
 }
 
-.social-redes .social-wp .fa-whatsapp:not(:hover){    
-    transition: all 300ms;    
+.social-redes .social-wp .fa-whatsapp:not(:hover){
+    transition: all 300ms;
 }
 
 .social-redes .social-fb{
@@ -85,14 +85,16 @@
     cursor: pointer;
 }
 
-.social-redes .social-fb .fa-facebook-f:not(:hover){    
-    transition: all 300ms;    
+.social-redes .social-fb .fa-facebook-f:not(:hover){
+    transition: all 300ms;
 }
 
 .social-redes .social-ig{
     display: block;
     width: 100%;
     text-align: center;
+    padding-bottom: 1px;
+
 }
 
 .social-redes .social-ig .fa-instagram{
@@ -109,12 +111,12 @@
     cursor: pointer;
 }
 
-.social-redes .social-ig .fa-instagram:not(:hover){    
-    transition: all 300ms;    
+.social-redes .social-ig .fa-instagram:not(:hover){
+    transition: all 300ms;
 }
 
 @media (min-width:320px) {
-    .social-title{        
+    .social-title{
         width: 80%;
     }
 
@@ -125,24 +127,24 @@
     .social-redes h3{
         font-size: 20px;
     }
-    
+
     .social-redes p{
         font-size: 15px;
     }
-    
+
 }
 
 @media (min-width:380px) {
-    .social-subtitle h2{  
-        font-size: 17px;      
+    .social-subtitle h2{
+        font-size: 17px;
         margin-top: 14px;
     }
 
-    .social-redes .social-fb .fa-facebook-f{        
+    .social-redes .social-fb .fa-facebook-f{
         margin-bottom: 20px;
     }
 
-    .social-redes .social-wp .fa-whatsapp{        
+    .social-redes .social-wp .fa-whatsapp{
         margin-bottom: 20px;
     }
 
@@ -154,23 +156,23 @@
         font-size: 22px;
         margin-bottom: 13px;
     }
-    
+
     .social-redes p{
         font-size: 17px;
     }
 }
 
-@media (min-width:470px) {   
+@media (min-width:470px) {
     .social-title{
         width: 70%;
     }
-    
-    .social-subtitle{        
+
+    .social-subtitle{
         margin-bottom: 7px;
     }
 
-    .social-subtitle h2{  
-        font-size: 19px;      
+    .social-subtitle h2{
+        font-size: 19px;
         margin-top: 18px;
     }
 }
@@ -180,8 +182,8 @@
         width: 60%;
     }
 
-    .social-subtitle h2{  
-        font-size: 21px;      
+    .social-subtitle h2{
+        font-size: 21px;
         margin-top: 20px;
     }
 
@@ -196,12 +198,12 @@
         width: 50%;
     }
 
-    .social-redes .social-fb .fa-facebook-f{        
+    .social-redes .social-fb .fa-facebook-f{
         margin-bottom: 24px;
         font-size: 50px;
     }
 
-    .social-redes .social-wp .fa-whatsapp{            
+    .social-redes .social-wp .fa-whatsapp{
         margin-bottom: 34px;
         font-size: 50px;
     }
@@ -215,15 +217,15 @@
         font-size: 25px;
         margin-bottom: 16px;
     }
-    
+
     .social-redes p{
         font-size: 17px;
     }
 }
 
-@media (min-width:801px) { 
-    .social-subtitle h2{  
-        font-size: 25px;      
+@media (min-width:801px) {
+    .social-subtitle h2{
+        font-size: 25px;
         margin-top: 20px;
     }
 }
@@ -233,28 +235,28 @@
         width: 55%;
     }
 
-    .social-subtitle h2{  
-        font-size: 30px;      
+    .social-subtitle h2{
+        font-size: 30px;
         margin-top: 27px;
-    }    
-} 
+    }
+}
 
 @media (min-width:1025px) {
     .social-title{
         width: 62%;
     }
 
-    .social-subtitle h2{  
-        font-size: 40px;      
+    .social-subtitle h2{
+        font-size: 40px;
         margin-top: 35px;
     }
 
-    .social-redes .social-fb .fa-facebook-f{ 
+    .social-redes .social-fb .fa-facebook-f{
         margin-bottom: 24px;
         font-size: 60px;
     }
 
-    .social-redes .social-wp .fa-whatsapp{            
+    .social-redes .social-wp .fa-whatsapp{
         margin-bottom: 34px;
         font-size: 60px;
     }
@@ -268,15 +270,15 @@
         font-size: 25px;
         margin-bottom: 16px;
     }
-    
+
     .social-redes p{
         font-size: 17px;
     }
-} 
+}
 
-@media (min-width:1281px) { 
-    .social-subtitle h2{  
-        font-size: 40px;      
+@media (min-width:1281px) {
+    .social-subtitle h2{
+        font-size: 40px;
         margin-top: 50px;
     }
 }

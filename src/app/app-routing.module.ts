@@ -7,6 +7,9 @@ import  { NavbarComponent } from './shared/navbar/navbar.component'
 import { FooterComponent } from "./shared/footer/footer.component";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
+//AdminGuard
+import { AdminGuard } from "./admin.guard";
+
 const routes:Routes = [
   //USER INTERFACE
   {
@@ -24,6 +27,10 @@ const routes:Routes = [
   {
     path: 'contacto',
     loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule)
+  },
+  {
+    path: 'admin',
+    loadChildren: () => import ('./admin/admin.module').then(m => m.AdminModule)
   },
   {
     path: '**',

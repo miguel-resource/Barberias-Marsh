@@ -1,1 +1,19 @@
-<p style="color: red">navbar works!</p>
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+  [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
+    <mat-toolbar>
+      <a routerLink="/">
+        <i class="fas fa-sign-out-alt"></i>
+      </a>
+    </mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item routerLink="/admin" routerLinkActive="active">Horario</a>
+      <a mat-list-item routerLink="/admin/servicios" routerLinkActive="active">Servicios</a>
+      <a mat-list-item routerLink="/admin/galeria" routerLinkActive="active">Galería</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

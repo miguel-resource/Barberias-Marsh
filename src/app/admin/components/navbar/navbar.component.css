@@ -1,0 +1,16 @@
+.mat-toolbar {
+  background-color: #E4B41C;
+}
+
+.mat-sidenav {
+  background-color: #E4B41C;
+}
+
+.mat-nav-list a {
+  display: block;
+  font-family: 'Maitree', serif;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center ;
+  width: 90%;
+}

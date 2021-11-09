@@ -1,4 +1,18 @@
-<app-navbar></app-navbar>
-<app-banner></app-banner>
+<app-navbar
+ *ngIf="this.router.url !== '/admin'
+ && this.router.url !== '/admin/servicios'
+ && this.router.url !== '/admin/galeria'">
+</app-navbar>
+
+<app-banner
+*ngIf="this.router.url !== '/admin'
+&& this.router.url !== '/admin/servicios'
+&& this.router.url !== '/admin/galeria'">
+</app-banner>
+
 <router-outlet></router-outlet>
-<app-footer></app-footer>
+<app-footer
+*ngIf="this.router.url !== '/admin'
+&& this.router.url !== '/admin/servicios'
+&& this.router.url !== '/admin/galeria'">
+</app-footer>

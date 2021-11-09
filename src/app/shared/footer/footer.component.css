@@ -11,9 +11,9 @@
 .footer-main .titulo{
     color: white;
     font-family: Maitree;
-    font-size: 10px;
+    font-size: 13px;
     text-align: center;
-    margin-top: 18%;
+    margin-top: 18%;    
 }
 
 .footer-main .titulo img{
@@ -31,13 +31,14 @@
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    visibility: hidden;
 }
 
 .footer-main .logo-marash:hover{
     transform: scale(1.1);
     transition: all 300ms;
+    cursor: pointer;
 }
-
 
 .footer-main .logo-marash:not(:hover){
     transition: all 300ms;
@@ -46,13 +47,13 @@
 .footer-main .redes-sociales{
     color: white;
     display: block;    
-    font-size: 16px;    
+    font-size: 25px;    
     height: 30px;
     margin-left: auto;    
     margin-top: 18%;     
     margin-right: auto;
     text-align: center;
-    width: 50%;  
+    width: 60%;  
 }
 
 .footer-main .redes-sociales .caja-redes{
@@ -101,20 +102,27 @@
 
 .info-pagina .specs{
     margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
 }
 
-.info-pagina .specs h3{
+.info-pagina .specs a{
     color: white;
     font-family: 'Prompt', sans-serif;
-    font-size: 10px;
-    font-weight: bold;    
-    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: bold;        
+}
+
+.info-pagina .specs a:hover{
+    cursor: pointer;
+    color: #E4B41C;
+    transition: all 500ms;
 }
 
 .info-pagina .dev-team{
     color: white;
     font-family: Maitree;
-    font-size: 10px;
+    font-size: 16px;
     margin-left: 40%;
     margin-top: 10px;
 }
@@ -169,13 +177,14 @@
     }
     
     .footer-main .titulo{                
-        font-size: 13px;        
+        font-size: 16px;        
         margin-top: 18%;
         transition: all 300ms;
     }
 
     .footer-main .logo-marash{        
-        width: 40%;
+        visibility: visible;
+        width: 60%;
         transition: all 300ms;
     }
 
@@ -191,8 +200,8 @@
     }  
 
     .info-pagina .dev-team{        
-        font-size: 10px;
-        margin-left: 60%;
+        font-size: 16px;
+        margin-left: 40%;
         margin-top: 10px;
     }
 }
@@ -227,7 +236,7 @@
         transition: all 300ms;
     }  
 
-    .info-pagina .specs h3{
+    .info-pagina .specs a{
         font-size: 20px;
     }
 
